@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commission info</title>
+
+    <style>
+    .card{ 
+        display:grid;
+        grid-template-areas:
+        "img title"
+        "img info"
+        "galary galary";
+    background-color: #f9d4e3;
+    grid-gap: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+
+     .img{
+        grid-area: img;
+        text-align:center;
+        background-color: #ffffffbb;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+        width: 350px;
+    }
+
+     .title{
+        grid-area: title;
+        text-align:center;
+        background-color: #ffffffbb;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+        width: 600px;
+
+    }
+    
+     .info{
+        display: flex;
+        justify-content: center;
+        column-gap: 50px;
+        grid-area: info;
+        text-align:center;
+        background-color: #ffffffbb;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+        width: 600px;
+     }
+
+     .USD Silver{
+        text-align:center;
+     }
+
+
+     .galary{
+        grid-area: galary;
+        text-align:center;
+        background-color: #ffffffbb;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+    }
+
+    h1 h2 h3{
+        margin: -5px;
+    }
+    </style>
+</head>
+<!-------------------------------------------------------->
+<body>
+    <header>
+
+    </header>
+<!-------------------------------------------------------->
+    <main>
+ <div class="card">
+     <div class="img"> <img src="https://photos.smugmug.com/photos/i-2qc3v3J/0/L6s4xJdgfSvTF8b5k8H5WmZvcqSV2jWHkTfBN8m2s/L/i-2qc3v3J-L.png" width="100%" alt="simple render humanoid fullbody"> 
+    <h2>Character by: Pinny</h2></div>
+     <div class="title"> <h1>Human(oid)s</h1> </div>
+     <div class="info"> 
+        <div class="USD"><h2>Prices(USD):</h2>
+    <h3>Sketch:</h3> 5 | 7.5 | 10
+    <h3>Flat colors:</h3> 7.5 | 10 | 15
+    <h3>Simple Render:</h3> 15 | 25 | N/A
+
+</div>
+ <div class="Silver"><h2>Prices (silver):</h2>
+    <h3>Sketch:</h3> 500s | 750s | 1,000s
+    <h3>Flat colors:</h3> 750s | 1,000s | 1,500s
+    <h3>Simple Render:</h3> 1,500s | 2,500s | N/A
+    <p> </p>
+</div>
+    
+</div>
+     <div class="galary"> <h2 style="margin-bottom:0px;">Render Galary</h2> 
+    <table style="margin: top 0px;"><tr><td><h3>Sketch:</h3>
+        <img width="100%" src="https://photos.smugmug.com/photos/i-SdRwq28/0/LBkSC8zmx6zXwNwL98vjt3JpR5ftGnVLsLMQrCqht/L/i-SdRwq28-L.png"></td>
+        <td><h3>Flat colors:</h3>
+        <img width="100%" src="https://photos.smugmug.com/photos/i-dRVn2QF/0/MzgQxHjZQLGMKL7rZdL4hVpbq8XHwNLsRmwCfv9HC/L/i-dRVn2QF-L.png"></td>
+    <td><h3>Simple Render:</h3>
+        <img width="100%" src="https://photos.smugmug.com/photos/i-2qc3v3J/0/L6s4xJdgfSvTF8b5k8H5WmZvcqSV2jWHkTfBN8m2s/L/i-2qc3v3J-L.png"></td></tr></table></div>
+ </div>
+    </main>
+ <!------------------------------------------------------->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
